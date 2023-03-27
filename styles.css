@@ -191,6 +191,7 @@ body {
     .rodape__lista {
         flex-wrap: wrap;
         padding: 1em;
+        text-align: center;
     }
 
     .rodape__logo {
