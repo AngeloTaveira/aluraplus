@@ -187,4 +187,8 @@ body {
     .dispositivos__lista {
         flex-direction: column;
     }
+
+    .rodape__lista {
+        justify-content: space-between;
+    }
 }
