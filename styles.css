@@ -183,4 +183,8 @@ body {
     .container__descricao {
         padding: 0.5em;
     }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
 }
