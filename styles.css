@@ -192,4 +192,8 @@ body {
         flex-wrap: wrap;
         padding: 1em;
     }
+
+    .rodape__logo {
+        width: 30%;
+    }
 }
