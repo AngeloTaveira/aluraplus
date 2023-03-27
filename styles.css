@@ -20,7 +20,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--cor-principal);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 700;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 0.75em;
     color: var(--cor-secundaria);
 }
 
@@ -88,7 +88,7 @@ body {
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3em;
     color: var(--cor-principal);
     margin-bottom: 0.1em;
 }
@@ -118,12 +118,12 @@ body {
 }
 
 .dispositivos__titulo {
-    font-size: 48px;
+    font-size: 3em;
     color: var(--cor-principal);
 }
 
 .lista__item {
-    font-size: 32px;
+    font-size: 2em;
     color: var(--cor-principal);
 }
 
@@ -148,9 +148,27 @@ body {
 .rodape__texto {
     margin: 1em 0;
     color: var(--cor-secundaria);
-    font-size: 14px;
+    font-size: 0.75em;
 }
 
 .lista__link a:hover {
     color: var(--cor-terciaria);
+}
+
+@media (max-width: 550px) {
+    .principal {
+        background-image: none;
+    }
+
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .container__caixa {
+        margin: 0 3em;
+    }
+    
+    .secundario__imagem {
+        width: 100%;
+    }
 }
