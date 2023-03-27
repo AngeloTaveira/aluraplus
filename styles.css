@@ -189,6 +189,6 @@ body {
     }
 
     .rodape__lista {
-        justify-content: space-around;
+        flex-direction: column;
     }
 }
