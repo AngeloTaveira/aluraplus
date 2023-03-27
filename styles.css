@@ -168,7 +168,18 @@ body {
         margin: 0 3em;
     }
     
+    .secundario {
+        margin: 0 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .secundario__imagem {
         width: 100%;
+    }
+
+    .container__descricao {
+        padding: 0.5em;
     }
 }
